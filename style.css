@@ -1,6 +1,8 @@
-h1{}
+h1{
+}
 h2{}
 body{
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +18,15 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    flex:1;
     background-color: rgba(68, 34, 120, 0.355);
     min-width:270px;
+    width: 25vw;
+    min-height:270px;
+    height: 25vw;
+    border: 1vh solid purple;
+    border-radius: 2vh;
+}
+button:hover{
+    background-color: aquamarine;
+    size: 1.5em;
 }
