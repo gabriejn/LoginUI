@@ -1,6 +1,7 @@
 h1{
 }
 h2{}
+
 body{
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -11,8 +12,11 @@ body{
     overflow: hidden;
 }
 .coder-box{
+    background-color: rgba(52, 49, 49, 0.711);
     border: 1px solid red;
 }
+
+
 .login-card{
     display: flex;
     justify-content: center;
@@ -21,12 +25,35 @@ body{
     background-color: rgba(68, 34, 120, 0.355);
     min-width:270px;
     width: 25vw;
-    min-height:270px;
+    min-height:320px;
     height: 25vw;
     border: 1vh solid purple;
     border-radius: 2vh;
+    box-shadow: 25px 10px 10px 10px #dd759640;
+}
+button {
+    display: flex;
+    align-self: center;
+
 }
 button:hover{
-    background-color: aquamarine;
+    background-color: #82d6d6;
     size: 1.5em;
 }
+#header {
+    animation-name: header;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+}
+@keyframes header {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+    75%{
+        transform: scale(1.2);
+    }
+  }
