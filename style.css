@@ -1,6 +1,6 @@
-h1{
+
+h1{margin-bottom: 0px;
 }
-h2{}
 
 body{
     font-family: 'Courier New', Courier, monospace;
@@ -21,15 +21,15 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     background-color: rgba(68, 34, 120, 0.355);
     min-width:270px;
     width: 25vw;
-    min-height:320px;
+    min-height:340px;
     height: 25vw;
     border: 1vh solid purple;
     border-radius: 2vh;
-    box-shadow: 25px 10px 10px 10px #dd759640;
+    box-shadow: 25px 10px 10px 10px #571c4d40;
 }
 button {
     display: flex;
@@ -37,7 +37,7 @@ button {
 
 }
 button:hover{
-    background-color: #82d6d6;
+    background-color: rgba(107, 65, 170, 0.555);
     size: 1.5em;
 }
 #header {

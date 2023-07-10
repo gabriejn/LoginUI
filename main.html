@@ -14,10 +14,24 @@
         <input type="text" placeholder="Gabriel@Email.com">
 
         <h2>password</h2>
-        <input type="password" placeholder="Password">     
-        <br>   
-        <button>Submit</button>
+        
+        <input type="password" placeholder="Password" id="myInput"> 
+    <div>
+        <input type="checkbox" onclick="myFunction()">Show Password     
+        
 
     </div>
+    <button>Submit</button>
+
 </body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myInput");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+    </script>    
 </html>
